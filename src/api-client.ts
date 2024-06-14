@@ -1,12 +1,12 @@
-import { RegisterFormData } from "./pages/Register";
-import { SignInFormData } from "./pages/SignIn";
+import { RegisterFormData } from "../src/pages/Register";
+import { SignInFormData } from "../src/pages/SignIn";
 import {
   HotelSearchResponse,
   HotelType,
   PaymentIntentResponse,
   UserType,
 } from "../../frontend/src/shared/types";
-import { BookingFormData } from "./forms/BookingForm/BookingForm";
+import { BookingFormData } from "./../src/forms/BookingForm/BookingForm";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
 
 export const fetchCurrentUser = async (): Promise<UserType> => {

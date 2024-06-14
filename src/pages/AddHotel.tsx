@@ -2,7 +2,7 @@
 import { useMutation } from "react-query";
 import ManageHotelForm from "../forms/ManageHotelForm/ManageHotelForm";
 import { useAppContext } from "../contexts/AppContext";
-import * as apiClient from "../api-client";
+import * as apiClient from "./../api-client";
 
 const AddHotel = () => {
   const { showToast } = useAppContext();
