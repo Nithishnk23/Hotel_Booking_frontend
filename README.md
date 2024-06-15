@@ -4,7 +4,7 @@ It is a booking web application. User can browse, search for hotel with their sp
 
 ## Frontend Configuration
 
-1. **Environment Files**: Navigate to the `frontend` folder and create a file: `.env`:
+**Environment Files**: Navigate to the `frontend` folder and create a file: `.env`:
 
     ```plaintext
     VITE_API_BASE_URL=
@@ -12,21 +12,33 @@ It is a booking web application. User can browse, search for hotel with their sp
     RAZORPAY_KEY_SECRET=
     ```
 
-2. **VITE_API_BASE_URLL**:
+**VITE_API_BASE_URLL**
     - The `VITE_API_BASE_URL` should point to the URL where your backend application is running (typically `http://localhost:3000` if you're running it locally).
+
+
+## Running the Application
+
+1. **Frontend**:
+    - Open a new terminal and navigate to the `frontend` directory.
+    - Install dependencies: `npm install`.
+    - Start the frontend application: `npm run dev`.
+    - The application should now be running on `http://localhost:5173`.
+      
       
 
-3. **DEPLOYMENT**:
+2. **DEPLOYMENT**
     - Netlify is used for deployment
     <p align="1eft">Netlify Demo : http://tiny-tanuki-e7c3c2.netlify.app</p> 
     
 
-5. **LANGUAGES USED**:
+    
+3. **LANGUAGES USED**
     - TYPESCRIPT is used for easy structuring.
-    - REACT - JavaScript library for building user interfaces.
+    - REACT Js library for building user interfaces.
       
-      
-6. **TOOLS USED**:
+
+
+4. **TOOLS USED**:
  <div align="left">
   <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="40" alt="vscode logo"  />
   <img width="12" />
